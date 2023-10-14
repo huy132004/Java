@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class VL13 {
     static int solve(long n){
+        if(n <= 1) return 0;
         long sum = 0;
         long n_temp = n;
         for(int i = 2; i*i <= n; i++){
